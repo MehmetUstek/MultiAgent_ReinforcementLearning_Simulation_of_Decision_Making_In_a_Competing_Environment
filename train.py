@@ -191,7 +191,7 @@ if __name__ =="__main__":
     parser.add_argument('-pl', '--prioritization-scale', default=0.5, type=float, help='Scale for prioritization')
 
     parser.add_argument('-gn', '--gpu-num', default='2', type=str, help='Number of GPU to use')
-    parser.add_argument('-test', '--test', action='store_true', help='Enable the test phase if "store_false"')
+    parser.add_argument('-test', '--test', action='store_false', help='Enable the test phase if "store_false"')
 
     # Game Parameters
     parser.add_argument('-k', '--agents-number', default=N_AGENT, type=int, help='The number of agents')
